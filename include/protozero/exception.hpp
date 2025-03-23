@@ -23,6 +23,8 @@ documentation.
  */
 namespace protozero {
 
+[[noreturn]] void throw_exception(const char* message);
+
 /**
  * All exceptions explicitly thrown by the functions of the protozero library
  * derive from this exception.
